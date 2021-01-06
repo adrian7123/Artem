@@ -1,0 +1,17 @@
+[2021-01-06 02:48:21] local.ERROR: Command "see" is not defined.
+
+Did you mean one of these?
+    db:seed
+    make:seeder {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"see\" is not defined.
+
+Did you mean one of these?
+    db:seed
+    make:seeder at /home/adrian/_Dev/php/Artem/vendor/symfony/console/Application.php:652)
+[stacktrace]
+#0 /home/adrian/_Dev/php/Artem/vendor/symfony/console/Application.php(237): Symfony\\Component\\Console\\Application->find()
+#1 /home/adrian/_Dev/php/Artem/vendor/symfony/console/Application.php(149): Symfony\\Component\\Console\\Application->doRun()
+#2 /home/adrian/_Dev/php/Artem/vendor/laravel/framework/src/Illuminate/Console/Application.php(90): Symfony\\Component\\Console\\Application->run()
+#3 /home/adrian/_Dev/php/Artem/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(133): Illuminate\\Console\\Application->run()
+#4 /home/adrian/_Dev/php/Artem/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
