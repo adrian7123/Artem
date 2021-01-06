@@ -1,0 +1,134 @@
+/*    evento   */
+
+section {
+    background-color: lightgray;
+}
+
+.container *{
+    color: #000;
+}
+.container {
+    
+    display: grid;
+    grid-template-rows: 0.5fr 2fr 1fr;
+    grid-template-columns: 1fr;
+    
+    min-height: 600px;
+    height: auto;
+    
+    
+}
+
+.topo {
+   width: 100%;
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.topo h1{
+    color: #2196f3;
+    letter-spacing:3.5px;
+    font-size: 35pt;
+    
+}
+
+.conteudo {
+    margin: 0px 0px 6px 6px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    
+
+}
+
+.descricao {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    padding-left: 13px;
+    border: 1px solid white;
+}
+
+.descricao p{
+    //color: #2196f3;
+    text-indent: 10px;
+    font-size: 15pt;
+    line-height: 28px;
+}
+
+.foto { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.imgBox {
+    width: 100%;
+    height: 100%;
+    padding: 14px;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: center;
+    
+    background-color: lightGray;
+}
+
+.imgBox img{
+    max-width: 100%;
+    max-height: 75%;
+}
+
+.btnBox {
+    background: lightblue;
+  
+}
+
+.data {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    background-color: lightGray;
+    
+}
+
+h3 {
+    margin: 2;
+}
+
+.data div {
+   
+    padding: 5px 20px;
+    border-radius: 10px;
+    margin-left:20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    background-color: #fff;
+    
+    
+}
+
+.data div h3 {
+    margin: 0;
+    margin-left: 5px;
+}
+
+.data div h4{
+    margin: 3;
+    margin-left: 30px;
+    
+}
+
+.baixo {
+    
+    margin-left: 6px;
+}

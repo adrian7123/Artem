@@ -1,0 +1,194 @@
+/*    evento   */
+
+a.white {
+    color: #fff;
+}
+
+.container *{
+    color: #000;
+}
+.container {
+
+    display: grid;
+    grid-template-rows: .8fr .01fr .1fr;
+    grid-template-columns: 1fr;
+
+    min-height: 600px;
+    height: auto;
+    max-height: 10000px;
+
+    margin-top:0;
+
+}
+
+.topo {
+   width: 100%;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    filter: blur(20px);
+
+}
+
+.foto {
+    transform: translateY(-230px);
+
+    height: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+.imgBox {
+    width: 100%;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: center;
+
+
+
+
+}
+
+.foto .imgBox img{
+    height: 400px;
+    max-height: 500px;
+}
+
+.miniContainer {
+    margin: 0 auto;
+    width: 80%;
+
+
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 80px;
+
+}
+
+.conteudo h1{
+    color: #444;
+    letter-spacing:4px;
+    font-size: 35pt;
+    text-transform: uppercase;
+    font-weight: 400;
+
+
+}
+
+
+
+.autor {
+
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.autor h3 {
+    margin: 0;
+}
+
+.descricao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 13px;
+
+
+}
+
+.descricao pre{
+    font-size: 15pt;
+    letter-spacing: 1.5px;
+    line-height: 30px;
+}
+
+
+
+h3 {
+    margin: 2px;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+
+
+    min-height:200px;
+    width: 80%;
+}
+
+.data div {
+    display: flex;
+    margin: 10px 0;
+}
+
+.data div h5{
+    margin: 3px;
+    margin-top: 7px; 
+    margin-left: 10px;
+    font-size: 14px;
+
+}
+
+.data div img{
+    width: 25px;
+    height: 25px;
+}
+
+.data div .gps {
+    width: 20px;
+}
+
+.btnBox {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+.baixo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 5% 3%;
+
+    background: #eee;
+}
+
+.baixo h2 {
+    margin: 7px;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 20pt;
+}
+
+.formLink {
+    height: 85%;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-end;
+
+}

@@ -1,0 +1,116 @@
+.eventoBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    
+    margin: auto;
+    
+    width: 90%;
+    height: auto;
+
+    
+  /*  border: 1px solid black; */
+}
+
+
+.evento {
+    min-width: 300px;
+    width: auto;
+    max-width: 300px;
+    height: 200px;
+    
+    background-size: 100% 100%;
+    background-color: #fff;
+    border-radius: 4px;
+    
+    margin: 30px;    
+    
+    overflow: hidden;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+    
+}
+
+.evento .verMais{
+    background: black;
+    width: auto;
+    height: auto;
+}
+
+.verMais p{
+    padding:0;
+    margin:2px;
+}
+
+.evento .eventoBottom{
+    background-color: #2196f3;
+        
+    width: 100%;
+    height: 40px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.eventoBottom h2{
+    text-align: left;
+    font-size: 16pt;
+    
+    letter-spacing: 1.5px;
+    margin: 0;
+    
+    
+  /*  border: 1px solid red; */
+    
+}
+
+/*.evento .eventoImg{
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+
+.evento:hover .eventoImg{
+    -moz-transform: scale(1.3);
+	  -webkit-transform: scale(1.3);
+    transform: scaleX(1.3);
+
+    transition: 500ms;
+}
+
+*/
+
+
+
+@media (max-width: 1230px) {
+    .eventoBox {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 850px) {
+    .eventoBox {
+        grid-template-columns: 1fr;
+    }
+    
+    .evento {
+        min-width: 250px;
+        width: auto;
+    }
+}
+

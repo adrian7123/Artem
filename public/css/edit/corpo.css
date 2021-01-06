@@ -1,0 +1,175 @@
+.container {
+    display: block;
+    min-height: 0px;    
+}
+
+.containe {
+    display: grid;
+    grid-template-rows: .45fr .01fr .1fr;
+    grid-template-columns: 1fr;
+
+    min-height: 600px;
+    height: auto;
+    max-height: 10000px;
+
+    margin-top:0;
+
+}
+
+.contain {
+    max-width: 90%;
+    min-height: 230px;
+
+    padding: 20px 0 0 20px;
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.minicontainer {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.conteudo .inputTitulo {
+    min-width: 800px;
+    width: auto;
+    max-width: 10000px;
+
+    color: #444;
+    letter-spacing: 4px;
+    font-size: 35pt;
+    text-transform: uppercase;
+    font-weight: 400;
+
+    height: 50px;
+
+    text-align: center;
+
+    border-top: none;
+    /* border-bottom: none; */
+    border-right: none;
+    border-left: none;
+
+    padding-bottom: 8px;
+}
+
+.contain .inputBox{
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+
+    justify-items: center;
+
+    margin-top: 20px;
+
+    height: auto;
+    width: 97%;
+}
+
+.contain .inputBox{
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+
+    justify-items: center;
+
+    margin-top: 20px;
+
+    height: auto;
+    width: 97%;
+}
+
+.inputBox .msm {
+    display: block;
+}
+
+
+.inputBox div{
+    margin:0;
+    margin-right:4px;
+}
+
+.inputBox button {
+    height: 36px;
+    margin-left: 16px;
+}
+
+.inputBox .inputIcon {
+    min-width: 180px;
+    width: 220px;
+    max-width: 400px;
+}
+
+.inputIcon input {
+    width: 160px;
+}
+
+.data {
+    margin-bottom: 30px;
+    width: 90%;
+}
+
+.white {
+    color: #fff;
+}
+
+.baixo {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+
+textarea {
+    width: 900px;
+    border: none;
+}
+
+@media screen and (max-width: 1200px){
+    textarea {
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 930px){
+    textarea {
+        width: 500px;
+    }
+}
+@media screen and (max-width: 1040px){
+    .contain .inputBox {
+        grid-template-columns: 1fr 1fr;
+
+    }
+}
+
+@media screen and (max-width: 540px){
+    .contain .inputBox {
+        grid-template-columns: 1fr;
+
+    }
+
+    .conteudo .inputTitulo {
+        min-width: 300px;
+    }
+}
+
+@media screen and (max-width: 1040px){
+    .contain .inputBox {
+     grid-template-columns: 1fr 1fr;
+
+    }
+}
+
+@media screen and (max-width: 540px){
+    .contain .inputBox {
+     grid-template-columns: 1fr;
+
+    }
+}

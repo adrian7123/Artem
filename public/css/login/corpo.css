@@ -1,0 +1,64 @@
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.container h2, h3, h4{
+	color: rgb(120,120,120);
+}
+
+form {
+	display: flex;
+
+	flex-direction: column;
+}
+
+.btnBox{
+ width: 100%;
+ display: flex;
+ justify-content: flex-end;
+}
+
+
+.container h3 {
+	margin-left: 7px;
+}
+
+form a {
+	margin-left:13px;
+}
+
+input {
+    margin: 5.5px;
+}
+
+@media screen and (max-width: 550px){
+	section {
+		height: 450px;
+	}
+	
+	.container {
+		display: flex;
+		/*border: 1px solid Black;*/
+	}
+	
+	form {
+	    /*border: 1px solid Black;*/
+	}
+	
+	form input.all{
+	    width: 97%;
+	}
+	
+	.btnBox{
+		width: 98%;
+		/*border: 2px solid black;*/
+	}
+	
+	
+	.btnBox input.btn{
+      	width: 98.4%;
+    }
+}

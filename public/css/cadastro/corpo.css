@@ -1,0 +1,118 @@
+.container {
+	width: 80%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+}
+
+section {
+	display: grid;
+	align-items: center;
+}
+
+section h2, h3, h4, h5, label {
+	color: #000;
+	margin: 0;
+}
+
+form {
+	width: 700px;
+	
+	/*border: 1px solid black;*/
+}
+
+form input {
+	margin-top: 5px;
+}
+
+.btnBox {
+	justify-content: flex-end;
+}
+
+.senhaBox input{
+	width: 100%;
+}	
+  	
+input[type="checkbox"] {
+	margin-left: 5px;
+}
+
+.container select option{
+	color: black;
+}
+
+.iconGrande {
+	width: calc(100% - 100px);
+	margin-left: 100px;
+
+}
+
+@media screen and (max-width: 750px){
+	form{
+		width: 570px;
+	/*	border: 1px solid black; */
+	}
+	
+	img.iconGrande {
+	    margin: 0;
+	    width: 1;
+	    height: 1;
+	    position: absolute;
+	    visibility: hidden;
+	    
+	}
+	
+	
+}
+
+@media screen and (max-width: 550px){
+	section {
+		height: 550px;
+		margin: 0;
+		width: 100%;
+	    display: flex;
+	}
+	
+	.container {
+		height: 500px;
+		/*border: 2px solid black;*/
+		margin: 3px;
+	}
+	
+	section .container{
+		width: 100%;
+	}
+	
+	form {
+		width: 100%;
+	}
+	
+	input[type="checkbox"] {
+    	margin-left: 10px;
+	}
+	
+	.senhaBox{
+		width: 100%;
+		height: 100px;
+		align-items: space-between;
+	}
+	
+	.senhaBox input {
+		margin:1;
+	}
+	
+	.senhaBox #confirmSenha{
+		margin:0;
+		margin-left: 1px;
+	}
+	
+	.btnBox{
+		width: 98%;
+		/*border: 2px solid black;*/
+	}
+	
+	.btnBox input.btn{
+	    width: 98.4%;
+	}
+
+}

@@ -1,0 +1,79 @@
+*{
+	/*border: 2px solid white;*/
+}
+section {
+	background-image:url("../../img/modelo.jpg");
+	background-repeat:no-repeat;
+	background-size: cover;
+	
+}
+
+.container {
+	margin-top: 90px;
+
+	/*border: 2px solid white;*/
+}
+
+.container h2 {
+	margin:0;
+	padding: 0;
+	font-size: 25pt;
+	letter-spacing: 1.4px;
+}
+
+.container .textBox {
+	padding: 4px;
+	background-color: rgba(100, 41, 10, 0.25);
+	box-shadow: 10px 10px 40px rgba(100, 41, 10, 0.3);
+	width: 80%;
+	margin-left: 20px;
+}
+
+@media screen and (max-width: 550px){
+	section {
+		background-size: cover;
+	}
+	
+	header {
+		padding-left: 3px;
+		
+	}
+	
+	.container {
+		margin: 0 auto;
+		margin-top: 33px;
+		max-height: 400px;
+	}
+	
+	.container .btnBox {
+		justify-content: center;
+	}
+	
+	.container h2 {
+		margin: 0;
+		font-size: 20pt;
+		
+	}
+	
+	.container .textBox {
+		margin-left:-8px;
+		width: 100%;
+	
+	}
+	
+/*	.container *, .container{
+		border: 2px solid white;
+	} */
+	
+	body {
+		background-size: auto;
+	}
+}
+
+
+
+  
+ 
+
+
+  

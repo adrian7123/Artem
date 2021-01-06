@@ -1,0 +1,27 @@
+/*    PESQUISA   */
+
+
+.pesquisaBox {
+    width: 90%;
+    height: 120px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+}
+
+.pesquisaBox form {
+    display: flex;
+    justify-content: flex-star;
+    
+    width: 100%;
+    margin-left: 40px;
+    
+}
+
+.pesquisaBox form input {
+    width:  50%;
+    margin-right: 6px;
+}
+

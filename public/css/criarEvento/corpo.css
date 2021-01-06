@@ -1,0 +1,197 @@
+/* Criar Evento */
+
+h2, h3, h4, p, label{
+    margin:0;
+    color: #000;
+}
+
+section{
+    background-color: lightgray;
+    margin: 0;
+}
+
+.container {    
+    
+
+    width:98%;
+    height: auto;
+    max-height: 5000px;
+  
+}
+
+form {
+    width: 98%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+form h1 {
+    align-self: flex-start;
+    text-indent: 3%;
+    width: 100%;
+}
+
+.container form div.button {
+    background-color: lightgray;
+    display: flex;
+    justify-content: flex-end;
+    height: auto;
+    max-height: 1000px;
+    
+}
+
+textarea {
+    margin-top: 10px;
+}
+
+.button .btn{
+   padding: 2px;
+}
+
+.container div{
+    display: flex;
+    justify-content: center;
+    
+    width: 96%;
+    height: auto;
+    
+    margin-bottom: 15px;
+    
+    border-radius: 7px;
+    
+    background-color: #fff;
+}
+
+#warning {
+
+    margin-left: 20px;
+    
+}
+.contain {
+    max-width: 90%;
+    min-height: 230px;
+    
+    padding: 20px 0 0 20px;
+    
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+
+.font25{
+    font-size: 25pt;
+}
+
+.font13 {
+    font-size: 9px;
+}
+
+.contain h2{
+    margin-bottom: 15px;
+}
+
+.contain h3{
+    text-indent: 4px;
+    margin:5;
+}
+
+.contain p{
+    margin-left:100px;
+    font-size: 17pt;
+}
+
+.imgPicker label h2 {
+    align-self: start;
+}
+
+
+.nomeFoto .fotoBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 98%;
+    
+    margin:0;
+   
+} 
+
+.fotoBox .texto {
+    width: auto;
+    max-width:500px;
+    margin-right: 10px;
+}
+
+.contain .inputBox{
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    
+    justify-items: center;
+    
+    margin-top: 20px;
+    
+    height: auto;
+    width: 97%;
+}
+
+.inputBox .msm {
+    display: block;
+}
+
+.endereco .contain h3{
+    margin:13px;
+}
+
+.endereco .contain .inputBox{
+    margin:0;
+    height: 40px;
+    min-width: 180px;
+    width: auto;
+    
+    display: flex;
+    justify-content: flex-start;
+}
+
+.inputBox div{
+    margin:0;
+    margin-right:4px;
+}
+
+.inputBox button {
+   height: 36px;
+   margin-left: 16px;
+}
+
+.inputBox .inputIcon {
+    min-width: 180px;
+    width: 220px;
+    max-width: 400px;
+}
+
+.inputIcon input {
+    width: 160px;
+}
+
+.war {
+    position: relative;
+    margin-left: 8px;
+}
+
+@media screen and (max-width: 1040px){
+    .contain .inputBox {
+     grid-template-columns: 1fr 1fr;
+     
+    }
+}
+
+@media screen and (max-width: 540px){
+    .contain .inputBox {
+     grid-template-columns: 1fr;
+     
+    }
+}
